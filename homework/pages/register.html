@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="/pages/blog.html">Contact</a>
+            <a href="/pages/contact.html">Register</a>
+            <a href="/pages/login.html">Login</a>
+            <a href="/pages/blog.html">Blog</a>
+        </nav>
+    </header>
+    <h1>Registration Page</h1>
+    <p>Welcome to registration page</p>
+    <hr>
+    <section>
+        <form action="/pages/register.html" method="post">
+            <section>
+                <h2>Register here</h2>
+                <label for="name">Name <br><input id="name" type="text" placeholder="write your name here"
+                        required></label><br>
+                <label for="email">Email <br><input id="email" type="email" placeholder="write your email here"
+                        required></label><br>
+                <label for="password">Password <br><input id="password" type="password"
+                        placeholder="write your password here" required></label><br>
+                <label for="confirm password">Confirm Password <br><input id="confirm password" type="password"
+                        placeholder="confirm password here" required></label>
+            </section>
+            <section>
+                <h3>Choose from the following</h3>
+                <label for="name"><input id="name" name="gender" type="checkbox">Feminin</label><br>
+                <label for="name"><input id="name" name="gender" type="checkbox">Masculin</label><br>
+            </section>
+            <section>
+                <h3>Upload your picture here</h3>
+                <label for="profile-picture"><input id="profile-picture" type="file" required></label><br><br>
+            </section>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <br>
+        &copy; Copyright - 2023-2024 Galatan Anca
+    </footer>
+</body>
+
+</html>
